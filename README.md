@@ -27,24 +27,6 @@ Intent Classification using Natural Language Processing
 ## Project Abstract:
 The Intent Classification project aims to categorize user queries into different intent classes such as order cancellation, shipping inquiries, product information, etc. This task involves applying Machine Learning, Deep Learning, and Language Models to accurately identify user intents from text input. The project explores different algorithms, including traditional machine learning techniques, deep learning models, and state-of-the-art pre-trained language models. The goal is to evaluate the performance of each approach and select the best-performing model for intent classification.
 
-## Project Structure:
-The project is divided into three main tasks:
-
-1. **Task 1**: Traditional Machine Learning Approaches
-   - Text preprocessing and feature extraction
-   - Implementation of Bag-of-Words (BoW), TF-IDF, and FastText embeddings
-   - Training and evaluation of classifiers (Random Forest, SVM, Logistic Regression)
-
-2. **Task 2**: Deep Learning Approaches
-   - Implementation of CNN, LSTM, BiLSTM, and CNN-BiLSTM architectures
-   - Training models with different text representations (BoW, TF-IDF, FastText)
-   - Evaluation and comparison of model performance
-
-3. **Task 3**: Transformer-based Language Models
-   - Fine-tuning pre-trained BERT and RoBERTa models
-   - Hyperparameter optimization
-   - Evaluation and comparison with traditional and deep learning approaches
-
 ## Algorithms Used:
 
 ### Machine Learning Algorithms:
@@ -89,17 +71,5 @@ The comparative analysis of different models highlights their effectiveness in c
 | 1   | BERT       | 0.97      | 0.97   | 0.97     | 0.97     | 0.969 |
 | 2   | RoBERTa    | 0.99      | 0.99   | 0.99     | 0.99     | 0.989 |
 
-## Key Findings:
-1. CNN with BoW features performed surprisingly well among the deep learning models
-2. Transformer-based models (BERT and RoBERTa) significantly outperformed traditional deep learning architectures
-3. RoBERTa achieved the highest performance metrics across all evaluated models
-4. Feature representation proved to be crucial, with BoW generally outperforming TF-IDF and FastText in deep learning models
-
 ## Conclusion:
 This Intent Classification project demonstrates the potential of Machine Learning, Deep Learning, and Language Models for text classification tasks, particularly for categorizing user intents. The comparative analysis reveals that transformer-based models like BERT and RoBERTa significantly outperform traditional methods and deep learning models in terms of accuracy, precision, and recall. By employing various algorithms, we gain insights into the strengths and weaknesses of each model, allowing us to choose the most suitable approach for intent classification.
-
-## Future Work:
-- Implement more advanced transformer models like T5 or GPT variants
-- Explore few-shot and zero-shot learning approaches
-- Investigate domain adaptation techniques for improved performance on specific domains
-- Implement ensemble methods to combine predictions from multiple models
